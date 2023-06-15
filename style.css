@@ -14,3 +14,65 @@ h1 {
     font-weight: 800;
     color: #F9FAF8;
 }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.subtext {
+    color: #1F2937;
+}
+
+.container1 {
+    background-color: #e5e7eb;
+}
+
+.image {
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.container2 {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.paragraph {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.container3 {
+    display: flex;
+}
+
+.container3-box {
+    background-color: #3882F6;
+}
+
+.container3 button {
+    background-color: #3882F6;
+}
+
+
