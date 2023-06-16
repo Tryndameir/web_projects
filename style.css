@@ -1,33 +1,33 @@
 body {
     display: flex;
+    flex: 1;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     width: 1200px;
 }   
 
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .content1 {
-    display: flex;
     width: 500px;
     height: 350px;
-    flex-wrap: wrap;
     gap: 8px;
     padding: 16px;
     margin: 32px;
-    align-items: center;
 }
 
 .content1 button {
     border-radius: 25px;
     background-color: #3882F6;
-    margin-top: 32px;
+    margin-top: 8px;
 }
 
 h1 {
@@ -39,14 +39,18 @@ h1 {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin: 12px;
+    margin-bottom: 350px;
+    margin-left: 32px;
+}
+
+a {
+    color: #E5E7EB;
 }
 
 .links {
     font-size: 18px;
     color: #e5e7eb;
-    display: flex;
-    flex-direction: row;
+    
 }
 
 .secondary-text {
@@ -57,24 +61,26 @@ h1 {
 }
 
 .big_img {
-    width: 500px;
-    height: 350px;
-    display: flex;
-    align-self: center;
+    width: 340px;
+    height: 200px;
+    margin: 12px;
+}
+
+.container1 {
+    background-color: #e5e7eb;
+    gap: 32px;
 }
 
 .random-info {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin: 32px;
 }
 
 .subtext {
     color: #1F2937;
-}
-
-.container1 {
-    background-color: #e5e7eb;
+    font-size: 18px;
 }
 
 .image {
@@ -87,7 +93,6 @@ h1 {
 
 .container2 {
     background-color: #E5E7EB;
-    display: flex;
 }
 
 .paragraph {
@@ -97,11 +102,14 @@ h1 {
 }
 
 .container3 {
-    display: flex;
+
 }
 
 .container3-box {
     background-color: #3882F6;
+    width: 400px;
+    height: 60px;
+    padding: 32px;
 }
 
 .container3 button {
