@@ -19,6 +19,12 @@ body {
     height: 500px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 .content1 {
     width: 480px;
     height: 350px;
@@ -69,12 +75,10 @@ a {
     display: flex;
 }
 
-.big_img {
-    width: 340px;
-    height: 250px;
-    margin-left: 700px;
-    margin-top: -340px;
+.big_img img{
     display: flex;
+    padding: 16px;
+    width: 400px;
 }
 
 .container1 {
