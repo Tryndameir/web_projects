@@ -20,17 +20,22 @@ body {
 }
 
 .content1 {
-    width: 500px;
+    width: 480px;
     height: 350px;
-    gap: 8px;
     padding: 16px;
     margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .content1 button {
     border-radius: 25px;
     background-color: #3882F6;
-    margin-top: 8px;
+    margin-top: 16px;
+    color: #E5E7EB;
+    font-weight: 900;
+    width: fit-content;
 }
 
 h1 {
@@ -61,12 +66,14 @@ a {
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
 }
 
 .big_img {
     width: 340px;
-    height: 200px;
-    margin: 12px;
+    height: 250px;
+    margin-left: 700px;
+    margin-top: -340px;
     display: flex;
 }
 
